@@ -2,8 +2,13 @@ import React from 'react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative bg-gradient-to-r from-orange-500 to-red-600 text-white">
-      <div className="absolute inset-0 bg-black opacity-20"></div>
+    <section
+      className="relative text-white bg-cover bg-center"
+      style={{
+        backgroundImage: "url('https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
+      }}
+    >
+      <div className="absolute inset-0 bg-black opacity-40"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
